@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asset Tracker</title>
+</head>
+
+<body>
+    <div>
+        <img src="dutro.png" alt="Dutro logo" class="logo">
+    </div>
+    <hr>
+    <div class="container">
+        <div class="navbar">
+            <a class="home active" id="home">Home Page</a>
+            <div class="dropdown">
+                <button class="dropbtn" id="add-asset">Add Asset</button>
+                <div class="dropdown-content">
+                    <a id="add-computer">Computer</a>
+                    <a id="add-networking">Networking Device</a>
+                    <a id="add-printer">Printer</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn" id="edit-asset">Edit Asset</button>
+                <div class="dropdown-content">
+                    <a id="edit-computer">Computer</a>
+                    <a id="edit-networking">Networking Device</a>
+                    <a id="edit-printer">Printer</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <hr>
+    <iframe id="content" src="https://docs.google.com/spreadsheets/d/17rgS6Cr6LokgG7oSQM5BIJCi71s5DOWonejhDL1BKZE/edit?usp=sharing&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+    <script src="script.js"></script>
+</body>
+
+</html>
