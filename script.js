@@ -4,7 +4,7 @@ function changeIFrame(url) {
 }
 
 function homePage() {
-    changeIFrame("https://docs.google.com/spreadsheets/d/1ss14o8doiP6NqDPDaRE1rLRvRxjgbApjmEeu9RXv-j4/edit?usp=sharing");
+    changeIFrame("https://docs.google.com/spreadsheets/d/1zPX4IHYxQKVasiDVtbtaK9QWP6IIubmBRdKsZFLXfCE/edit?usp=sharing");
 
     let home = document.querySelector("#home");
     home.setAttribute("class", "home active");
@@ -16,13 +16,13 @@ function homePage() {
 
 function addAsset(type) {
     if(type === "computer") {
-        changeIFrame("https://docs.google.com/spreadsheets/d/17rgS6Cr6LokgG7oSQM5BIJCi71s5DOWonejhDL1BKZE/edit?usp=sharing");
+        changeIFrame("https://docs.google.com/forms/d/e/1FAIpQLSdSDrdpi4T-aTERC2pEGEtmQjNzOVG1tt6kf9pT9ZjQbp-5QA/viewform?embedded=true");
     }
     else if(type === "networking") {
-        changeIFrame("https://docs.google.com/spreadsheets/d/17rgS6Cr6LokgG7oSQM5BIJCi71s5DOWonejhDL1BKZE/edit?usp=sharing");
+        changeIFrame("https://docs.google.com/forms/d/e/1FAIpQLSeLk3Do1rYuThxeQz0CfqqZndlrIWCaLXrFzw7R5aLVQGszkw/viewform?embedded=true");
     }
     else if(type === "printer") {
-        changeIFrame("https://docs.google.com/spreadsheets/d/17rgS6Cr6LokgG7oSQM5BIJCi71s5DOWonejhDL1BKZE/edit?usp=sharing");
+        changeIFrame("https://docs.google.com/forms/d/e/1FAIpQLSfrZzWkG-KfmQ-8HmiG7ulIJE5h7c5pJ7gd8iSINryttiss4Q/viewform?embedded=true");
     }
     let home = document.querySelector("#home");
     home.setAttribute("class", "home");
@@ -34,13 +34,13 @@ function addAsset(type) {
 
 function editAsset(type) {
     if(type === "computer") {
-        changeIFrame("https://docs.google.com/spreadsheets/d/17rgS6Cr6LokgG7oSQM5BIJCi71s5DOWonejhDL1BKZE/edit?usp=sharing");
+        changeIFrame("https://docs.google.com/spreadsheets/d/1sPypLGGBZuOKoSCY--GU2Ja3AV3K1Tf7lXUDHSSk4_E/edit?usp=sharing");
     }
     else if(type === "networking") {
-        changeIFrame("https://docs.google.com/spreadsheets/d/17rgS6Cr6LokgG7oSQM5BIJCi71s5DOWonejhDL1BKZE/edit?usp=sharing");
+        changeIFrame("https://docs.google.com/spreadsheets/d/1LUGrBW1d9ZOWDOYxK4nDrwa_x0R3aSUkBupDLZxEhqo/edit?usp=sharing");
     }
     else if(type === "printer") {
-        changeIFrame("https://docs.google.com/spreadsheets/d/17rgS6Cr6LokgG7oSQM5BIJCi71s5DOWonejhDL1BKZE/edit?usp=sharing");
+        changeIFrame("https://docs.google.com/spreadsheets/d/1d6oCPKfc0H7X5UStWY0UTCviw1ACTb81EN8GIk25Zss/edit?usp=sharing");
     }
     let home = document.querySelector("#home");
     home.setAttribute("class", "home");
