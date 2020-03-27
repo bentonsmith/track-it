@@ -1,3 +1,11 @@
+/*
+ * This is the stylesheet for the asset tracking program.
+ * It contains the styles for the navigation area and controls
+ * the size of the iFrame that contains all of the dynamic Google
+ * Sheets and forms. 
+ */
+
+/* Controling the size and display of the iFrame */
 iframe {
     width: 90%;
     height: 800px;
@@ -6,16 +14,19 @@ iframe {
     margin-right: auto;
 }
 
+/* Setting the main background color */
 div.container .navbar .active {
     background-color: white;
 }
 
+/* Formatting the logo */
 .logo {
     width: 20%;
     height: auto;
     cursor: pointer;
 }
 
+/* All navbar styles are below */
 .container {
     overflow: hidden;
     text-align: center;
@@ -61,17 +72,16 @@ div.container .navbar .active {
     outline: none;
     color: black;
     padding: .75em 2em;
-    font-family: inherit; /* Important for vertical align on mobile phones */
+    font-family: inherit;
     margin-left: 1em;
-    margin-right: 1em; 
+    margin-right: 1em;
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    /* min-width: 160px; */
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
@@ -84,14 +94,14 @@ div.container .navbar .active {
     text-align: left;
     border: none;
     background-color: #f9f9f9;
-  }
-  
-  /* Add a grey background color to dropdown links on hover */
-  .dropdown-content a:hover {
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
     background-color: #ddd;
-  }
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
     display: block;
-  }
+}
